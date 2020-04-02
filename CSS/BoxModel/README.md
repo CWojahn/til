@@ -16,7 +16,7 @@ Height: 100px;
 
 ### 2. Padding
 
-For padding are 4(four) properties: Top|Rigth|Bottom|Left
+For padding are 4(four) properties: Top|Rigth|Bottom|Left<br>
 With long hand:
 
 ```sh
@@ -52,7 +52,7 @@ padding: 100px 150px;
 
 ### 3. Border
 
-For border are 4(four) properties: Top|Rigth|Bottom|Left
+For border are 4(four) properties: Top|Rigth|Bottom|Left<br>
 For which border:
 
 ```sh
@@ -86,7 +86,7 @@ Styles:
 
 ### 4. Margin
 
-For margin are 4(four) properties: Top|Rigth|Bottom|Left
+For margin are 4(four) properties: Top|Rigth|Bottom|Left<br>
 With long hand:
 
 ```sh
@@ -104,7 +104,7 @@ and in short hand:
 margin: 100px 250px 150px 300px;
 ```
 
-If the right and left will be the same size use this:
+If the right and left will be the same size use this:<br>
 margin: top right-left bottom
 
 ```sh
