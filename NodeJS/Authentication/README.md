@@ -106,5 +106,3 @@ const authMiddleWare = async (req, res, next)=>{
   });
 
 ```
-
-[JWT] - <https://jwt.io/>
