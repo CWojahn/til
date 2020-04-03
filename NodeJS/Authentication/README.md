@@ -29,7 +29,7 @@ Example of non correct use(is a non correct use because the secretkey is always 
   });
 ```
 
-Example of correct use:
+#### Example of correct use:
 
 Create a new file in your project with a fantastic name like 'jwt.js'.
 In this file:
