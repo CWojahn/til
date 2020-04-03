@@ -70,10 +70,10 @@ const authMiddleWare = async (req, res, next)=>{
 }
 
   server.get('/signup', async (req, res)=> {
-    try(
+    try{
       const token = jwt.sign({userId: user.id});
       rs.send({user, token});
-    )catch(error){
+    }catch(error){
       res.send(400,error);
     }
   });
@@ -83,10 +83,10 @@ const authMiddleWare = async (req, res, next)=>{
     const [email, password] = BUffer.from(hash, 'base64')
       .toString()
       .split(':');
-    try(
+    try{
       const token = jwt.sign({userId: user.id});
       rs.send({user, token});
-    )catch(error){
+    }catch(error){
       res.send(400,error);
     }
   });
