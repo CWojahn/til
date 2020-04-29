@@ -12,4 +12,4 @@ to explain all the concept that I learned. If you find some mistake please let m
 [JWT Authentication] - concept and example of Json Web Token authentication
 
 [box model]: https://github.com/CWojahn/til/tree/master/CSS/BoxModel
-[jwt authentication]: https://github.com/CWojahn/til/tree/master/NodeJS/Authenticaiton
+[jwt authentication]: https://github.com/CWojahn/til/tree/master/NodeJS/Authentication
