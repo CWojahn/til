@@ -127,7 +127,7 @@ module.exports = {
 				.select('userid')
 				.first();
 
-			if (user.length < 1) {
+			if (!user) {
 				return response.sendStatus(401);
 			}
 			const token = await jwt.sign({ userId: user.userid });
